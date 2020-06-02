@@ -14,32 +14,40 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style>
-
+        .container{
+            font-size: 18px;
+            line-height: 40px;
+            cursor: pointer;
+            color:rgb(0, 0, 0);
+        }
+        .container div:hover{
+            font-weight: bold;
+            background: rgb(163, 157, 173);
+            color: white;
+        }
+        a:hover{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
-    <ul class="nav nav-tabs">
-        <li><a href="http://ics.chinasoftinc.com/SignOnServlet">中软TGP门户</a></li>
-        <li><a href="http://rnd-ohs.huawei.com/HoasWeb/index.jsp">华为OMP外包工时</a></li>
-        <li><a href="http://3ms.huawei.com/hi/map/index.html">3ms</a></li>
-        <li><a href="http://toolcloud.huawei.com/toolmall">toolmall软件</a></li>
-        <li><a href="http://code-cbu.huawei.com/">华为Codeclub</a></li>
-        <li><a href="http://code-cbu.huawei.com/dashboard/todos">issue to do</a></li>
-        <li><a href="http://code-cbu.huawei.com/dbs/UTS/dbs-test-devops/issues">issue list</a></li>
-        <li><a href="http://dbs.huawei.com/dbs/">线上DBS平台</a></li>
-        <li><a href="https://echarts.apache.org/zh/feature.html">Echarts</a></li>
-        <li><a href="https://www.bootcss.com/">bootstrap</a></li>
-        <li><a href="https://git-scm.com/book/zh/v2/">git book</a></li>
-        <li><a href="https://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-    </ul>
-    
+    <div style="width:100%;margin:0 auto">
+         <div class="container row nav nav-tabs" style="margin:0 auto">
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://ics.chinasoftinc.com/SignOnServlet">TGP门户</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://rnd-ohs.huawei.com/HoasWeb/index.jsp">OMP外包工时</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://3ms.huawei.com/hi/map/index.html">3ms</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://toolcloud.huawei.com/toolmall">toolmall软件</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://code-cbu.huawei.com/">华为Codeclub</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://code-cbu.huawei.com/dashboard/todos">issue to do</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://code-cbu.huawei.com/dbs/UTS/dbs-test-devops/issues">issue list</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="http://dbs.huawei.com/dbs/">线上DBS平台</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="https://echarts.apache.org/zh/feature.html">Echarts</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="https://www.bootcss.com/">bootstrap</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="https://git-scm.com/book/zh/v2/">git book</a></div>
+            <div class="col-xl-2 col-md-2 col-sm-3 text-center"><a href="https://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a></div>
+         </div>
+    </div>
+  
 </body>
 </html>
