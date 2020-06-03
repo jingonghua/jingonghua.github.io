@@ -1,209 +1,225 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>网络书签</title>
-	<style>
-		 /*html { 
-	        -webkit-filter: grayscale(100%); 
-	        -moz-filter: grayscale(100%); 
-	        -ms-filter: grayscale(100%); 
-	        -o-filter: grayscale(100%); 
-	        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
-	        _filter:none; 
-	    } */
+    <meta charset="UTF-8">
+    <title>网络书签</title>
+    <style>
+         /*html { 
+            -webkit-filter: grayscale(100%); 
+            -moz-filter: grayscale(100%); 
+            -ms-filter: grayscale(100%); 
+            -o-filter: grayscale(100%); 
+            filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
+            _filter:none; 
+        } */
     
-		html,body{
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 100%;
-		}
-		.content{
-			width: 64%;
-			margin: 0 auto;
-			padding-right: 40px; 
-			margin-top: 2%;
-			padding-left:5%;
-			/* border: 1px solid red; */
-		}
-		.content:after{
-			content:".";
-			display:block;
-			height:0;
-			clear:both;
-			visibility:hidden;
-		}
-		a{
-			display: block;
-			width:220px;
-			height:60px;
-			line-height: 60px;
-			border:1px solid white;
-			border-radius: 8px;
-			background: #0078cc;
-			color:white;
-			text-align: center;
-			float: left;
-			font-size: 36px;
-			margin-right: 20px;
-			margin-bottom: 25px;
-			padding: 4px;
-			text-decoration:none;
-		}
-		a:after{
-			zoom:1;
-			clear:both;
-		}
-		a:hover,a:active{
-			color:black;
-			/*outline: 1px solid white;*/
-			box-shadow: 10px 10px 5px #3f5463; 
-		}
-		.small{
-			font-size:34px;
-		}
-		.color-0{
-			background:red;
-		}	
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .content{
+            width: 64%;
+            margin: 0 auto;
+            padding-right: 40px; 
+            margin-top: 2%;
+            padding-left:5%;
+            /* border: 1px solid red; */
+        }
+        .content:after{
+            content:".";
+            display:block;
+            height:0;
+            clear:both;
+            visibility:hidden;
+        }
+        a{
+            display: block;
+            width:220px;
+            height:60px;
+            line-height: 60px;
+            border:1px solid white;
+            border-radius: 8px;
+            background: #0078cc;
+            color:white;
+            text-align: center;
+            float: left;
+            font-size: 36px;
+            margin-right: 20px;
+            margin-bottom: 25px;
+            padding: 4px;
+            text-decoration:none;
+        }
+        a:after{
+            zoom:1;
+            clear:both;
+        }
+        a:hover,a:active{
+            color:black;
+            /*outline: 1px solid white;*/
+            box-shadow: 10px 10px 5px #3f5463; 
+        }
+        .small{
+            font-size:34px;
+        }
+        .color-0{
+            background:red;
+        }   
 
-		.color-1{
-			background:#484891;
-		}
+        .color-1{
+            background:#484891;
+        }
 
-		.color-2{
-			background:#B15BFF;
-		}
+        .color-2{
+            background:#B15BFF;
+        }
 
-		.color-3{
-			background:#00BB00;
-		}
+        .color-3{
+            background:#00BB00;
+        }
 
-		.hr{
-			width: 100%;
-			border:2px solid red;
-		}
+        .hr{
+            width: 100%;
+            border:2px solid red;
+        }
 
-	</style>
+    </style>
 </head>
 <body>
-	<div class="content">
-		<!-- 公司使用 --> 
-		<a target="_blank"  class="color-0" href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted">Scratch</a>
-		<a target="_blank"  class="color-2" href="https://www.wjx.cn/login.aspx">问卷星</a>
-		<a target="_blank"  class="color-2" href="http://www.ydma.com/">IT云课堂</a>
-		<a target="_blank"  class="color-3" href="http://www.itxdl.cn//">IT兄弟连</a>
-		<a target="_blank"  class="color-3" href="https://www.code.xdl.cn">兄弟云</a>
-		<a target="_blank"  class="color-3" href="http://eval.itxdl.cn/">测评系统</a>
-		<a target="_blank"  class="color-3" href="http://naozhong.net.cn/">在线闹钟</a>
+    <div class="content">
+        <!-- 网站导航 -->
+        <a  target="_blank"  class="color-0"  href="http://ics.chinasoftinc.com/SignOnServlet">中软TGP门户</a>
+        <a  target="_blank"  class="color-0"  href="http://rnd-ohs.huawei.com/HoasWeb/index.jsp">华为OMP外包工时</a>
+        <a  target="_blank"  class="color-0"  href="http://3ms.huawei.com/hi/map/index.html">3ms</a>
+        <a  target="_blank"  class="color-0"  href="http://toolcloud.huawei.com/toolmall">toolmall软件</a>
+        <a  target="_blank"  class="color-0"  href="http://code-cbu.huawei.com/">华为Codeclub</a>
+        <a  target="_blank"  class="color-0"  href="http://code-cbu.huawei.com/dashboard/todos">issue to do</a>
+        <a  target="_blank"  class="color-0"  href="http://code-cbu.huawei.com/dbs/UTS/dbs-test-devops/issues">issue list</a>
+        <a  target="_blank"  class="color-0"  href="http://dbs.huawei.com/dbs/">线上DBS平台</a>
 
-		<!-- 达内网站 -->
-		<a target="_blank"  class="color-3" href="https://xueqiu.com/S/TEDU">达内股票</a>
-		<a target="_blank" class="color-3" href="http://www.tmooc.cn/">TMOOC</a>
-		<a target="_blank" class="color-3" href="http://code.tarena.com.cn/">CODE</a>
-		<a target="_blank" class="color-3" href="livevideo.tarena.com.cn/">达内直播</a>
-	</div>
-	<div class="hr"></div>
 
-	<div class="content">
-		<!-- 编程技术 --> 
-		<a target="_blank" class="color-0" class="small" href="https://www.gaoding.com/me/designs">搞定设计</a>
-		<a target="_blank" class="color-0" class="small" href="http://guozhivip.com/rank/">果汁排行榜</a>
-		<a target="_blank" class="color-0" class="small" href="http://guozhivip.com/bz/">果汁壁纸</a>
-		<a target="_blank" class="color-0" class="small" href="http://www.xiachufang.com/explore/">下厨房</a>
-		<a target="_blank" class="color-0" class="small" href="https://www.icourse163.org/">中国MOOC</a>
-		<a target="_blank" class="color-0" href="https://www.imooc.com/">慕课网</a>
-		<a target="_blank" class="color-0" href="https://www.bilibili.com/">哔哩哔哩</a>
-		<a target="_blank" class="color-1" href="http://www.runoob.com/">菜鸟教程</a>
 
-		<a target="_blank" class="color-1" href="https://github.com/">Github</a>
-		<a target="_blank" class="color-1" href="https://code.y444.cn/">在线代码</a>
-		<a target="_blank" class="color-1" href="https://www.tiobe.com/tiobe-index/">TIOBE排行榜</a>	
-		<a target="_blank" class="color-1" href="https://www.w3cschool.cn/">w3Cschool</a>
+    </div>
+    <div class="hr"></div>    
 
-		<a target="_blank" class="color-1" href="https://www.w3school.com.cn/">w3school</a>
-		<a target="_blank" class="color-1" href="https://juejin.im/">掘金</a>
-		<a target="_blank" class="color-1" href="https://www.csdn.net/">CSDN</a>
+    <div class="content">
 
-		<a target="_blank" class="color-1" href="https://www.jianshu.com">简书</a>
-		<a target="_blank" class="color-1" href="https://www.cnblogs.com ">博客园</a>
-		<a target="_blank" class="color-1" href="https://www.processon.com/">流程图</a>
-		<a target="_blank" class="color-1" href="https://maxiang.io/">马克飞象</a>	
+        <!-- 公司使用 --> 
+        <a  target="_blank"  class="color-3"  href="https://echarts.apache.org/zh/feature.html">Echarts</a>
+        <a  target="_blank"  class="color-3"  href="https://www.bootcss.com/">bootstrap</a>
+        <a  target="_blank"  class="color-3"  href="https://git-scm.com/book/zh/v2/">git book</a>
+        <a  target="_blank"  class="color-3"  href="https://www.runoob.com/highcharts/highcharts-tutorial.html">Highcharts 教程</a>
+        <a target="_blank"  class="color-0" href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted">Scratch</a>
+        <a target="_blank"  class="color-2" href="https://www.wjx.cn/login.aspx">问卷星</a>
+        <a target="_blank"  class="color-3" href="http://eval.itxdl.cn/">测评系统</a>
+        <a target="_blank"  class="color-3" href="http://naozhong.net.cn/">在线闹钟</a>
 
-		<a target="_blank" class="color-1" href="https://note.youdao.com/web/">有道云笔记</a>
-		<a target="_blank" class="color-1" href="https://www.django.cn/">Django中文网</a>
-		<a target="_blank" class="color-1" href="https://pypi.org/project/">python包</a>
-		<a target="_blank" class="color-1" href="https://docs.python.org/3/">python文档</a>
-		
-	</div>
-	<div class="hr"></div>
+        <!-- 达内网站 -->
+        <a target="_blank" class="color-3" href="http://www.tmooc.cn/">TMOOC</a>
+        <a target="_blank" class="color-3" href="http://code.tarena.com.cn/">CODE</a>
+    </div>
+    <div class="hr"></div>
 
-	<div class="content">
-		<!-- 综合工具 -->
-		<a target="_blank" class="color-0" href="https://www.zhihu.com/signin?next=%2F">知乎</a>
-		<a target="_blank" class="color-0" href="http://dict.youdao.com/">有道词典</a>
-		<a target="_blank" class="color-0" href="http://peiyin.xunfei.cn/">讯飞配音</a>
-		<a target="_blank" class="color-0" href="https://www.amap.com/">高德地图</a>
-		<a target="_blank" class="color-2" href="https://y.qq.com/">QQ音乐</a>
 
-		<a target="_blank" class="color-0" href="http://tool.liumingye.cn/music/">音乐下载</a>
-		<a target="_blank" class="color-2" href="http://gameapp.qq.com/347?via=QZ.MYAPP">抢车位</a>
-		<a target="_blank" class="color-2" href="https://www.baidu.com/s?wd=日历">日历</a>
-		<a target="_blank" class="color-2" href="http://moresound.tk/music/">魔声</a>
+    <div class="content">
+        <!-- 编程技术 --> 
+        <a target="_blank" class="color-0" class="small" href="https://www.gaoding.com/me/designs">搞定设计</a>
+        <a target="_blank" class="color-0" class="small" href="http://guozhivip.com/rank/">果汁排行榜</a>
+        <a target="_blank" class="color-0" class="small" href="http://guozhivip.com/bz/">果汁壁纸</a>
+        <a target="_blank" class="color-0" class="small" href="http://www.xiachufang.com/explore/">下厨房</a>
+        <a target="_blank" class="color-0" class="small" href="https://www.icourse163.org/">中国MOOC</a>
+        <a target="_blank" class="color-0" href="https://www.imooc.com/">慕课网</a>
+        <a target="_blank" class="color-0" href="https://www.bilibili.com/">哔哩哔哩</a>
+        <a target="_blank" class="color-1" href="http://www.runoob.com/">菜鸟教程</a>
 
-		<a target="_blank" class="color-2" href="https://ic.qq.com/pim/contact.jsp">QQ通讯录</a>
-		<a target="_blank" class="color-2" href="https://www.easyicon.net/">icon图</a>
-	
-		<a target="_blank" class="color-2" href="http://www.pansoso.com/">百度云搜索</a>
-		<a target="_blank" class="color-2" href="https://www.zhipin.com/">BOSS直聘</a>
-		<a target="_blank" class="color-2" href="https://www.diediaow.com">碟调网</a>	
-		<a target="_blank" class="color-2" href="http://xiaohua.zol.com.cn/youmo/">幽默笑话</a>
-		<a target="_blank" class="color-2" href="https://www.qiushibaike.com/">糗事百科</a>
+        <a target="_blank" class="color-1" href="https://github.com/">Github</a>
+        <a target="_blank" class="color-1" href="https://code.y444.cn/">在线代码</a>
+        <a target="_blank" class="color-1" href="https://www.tiobe.com/tiobe-index/">TIOBE排行榜</a>   
+        <a target="_blank" class="color-1" href="https://www.w3cschool.cn/">w3Cschool</a>
 
-	</div>
+        <a target="_blank" class="color-1" href="https://www.w3school.com.cn/">w3school</a>
+        <a target="_blank" class="color-1" href="https://juejin.im/">掘金</a>
+        <a target="_blank" class="color-1" href="https://www.csdn.net/">CSDN</a>
 
-	<div class="hr"></div>	
+        <a target="_blank" class="color-1" href="https://www.jianshu.com">简书</a>
+        <a target="_blank" class="color-1" href="https://www.cnblogs.com ">博客园</a>
+        <a target="_blank" class="color-1" href="https://www.processon.com/">流程图</a>
+        <a target="_blank" class="color-1" href="https://maxiang.io/">马克飞象</a>  
 
-	<div class="content">
-		<!-- 资讯-->
+        <a target="_blank" class="color-1" href="https://note.youdao.com/web/">有道云笔记</a>
+        <a target="_blank" class="color-1" href="https://www.django.cn/">Django中文网</a>
+        <a target="_blank" class="color-1" href="https://pypi.org/project/">python包</a>
+        <a target="_blank" class="color-1" href="https://docs.python.org/3/">python文档</a>
+        
+    </div>
+    <div class="hr"></div>
 
-		<a target="_blank" style="background:red;" href="http://m.baidu.com/s?word=天气预报">天气预报</a>
-		<a target="_blank" style="background:red;" href="http://m.baidu.com/s?word=空气质量">空气质量</a>
-		<a target="_blank" class="color-2" href="https://weibo.com/445896926/home?wvr=5">新浪微博</a>
-		<a target="_blank" class="color-2" href="https://s.weibo.com/top/summary?cate=realtimehot">微博热搜</a>
+    <div class="content">
+        <!-- 综合工具 -->
+        <a target="_blank" class="color-0" href="https://www.zhihu.com/signin?next=%2F">知乎</a>
+        <a target="_blank" class="color-0" href="http://dict.youdao.com/">有道词典</a>
+        <a target="_blank" class="color-0" href="http://peiyin.xunfei.cn/">讯飞配音</a>
+        <a target="_blank" class="color-0" href="https://www.amap.com/">高德地图</a>
+        <a target="_blank" class="color-2" href="https://y.qq.com/">QQ音乐</a>
 
-		<a target="_blank" class="color-2" href="http://top.baidu.com/?fr=zx_right">百度风云榜</a>
-		<a target="_blank" class="color-2" href="http://www.codoon.com/gps_sports/my_routes">咕咚后台</a>
-		<a target="_blank" class="color-2" href="http://www.runchina.org.cn/portal.php?mod=calendar&ac=list">中国马拉松</a>
-		<a target="_blank" class="color-2" href="http://www.runchina.org.cn/portal.php?mod=mobile_calendar">赛事日历</a>
-		
-		<a target="_blank" class="color-2" href="http://www.xian42195.com/">西安马拉松</a>
-		<a target="_blank" class="color-2" href="http://www.yangling-marathon.com/">杨凌马拉松</a>
-		
-	</div>
-	<div class="hr"></div>
+        <a target="_blank" class="color-0" href="http://tool.liumingye.cn/music/">音乐下载</a>
+        <a target="_blank" class="color-2" href="http://gameapp.qq.com/347?via=QZ.MYAPP">抢车位</a>
+        <a target="_blank" class="color-2" href="https://www.baidu.com/s?wd=日历">日历</a>
+        <a target="_blank" class="color-2" href="http://moresound.tk/music/">魔声</a>
 
-	<div class="content">
-		<!-- 自媒体  -->
-		<a target="_blank" style="background:red;"  href="http://www.yizhuan5.com/work.html#1-1">易撰</a>
-		<a target="_blank" style="background:red;" href="https://www.vcg.com/">视觉中国</a>
-		<a target="_blank" class="color-3" href="https://mp.weixin.qq.com/">微信公众号</a>
-		<a target="_blank" class="color-3"  href="https://baijiahao.baidu.com/builder/rc/analysiscontent/single">百家号</a>
-		<a target="_blank" class="color-3"  href="https://mp.dayu.com/dashboard/stat/article">大鱼号</a>
-		<a target="_blank" class="color-3"  href="https://om.qq.com/article/articleStatistic">企鹅号</a>
-		<a target="_blank" class="color-3"  href="https://mp.qutoutiao.net/content-manage/article">趣头条</a>	
-		<a target="_blank" class="color-3"  href="https://mp.yidianzixun.com/#/ArticleManual">一点资讯</a>
-		<a target="_blank" class="color-3"  href="https://mp.sohu.com/mpfe/v3/main/news/articlelist">搜狐号</a>
-		<a target="_blank" class="color-3"  href="http://mp.cashtoutiao.com/">惠头条</a>
-		<a target="_blank" class="color-3"  href="http://kuaichuan.360.cn/#!/manage">快传号</a>
-		<a target="_blank" class="color-3"  href="https://mp.toutiao.com/profile_v3/index">今日头条</a>
-		<a target="_blank" class="color-3"  href="http://mp.eastday.com/pagearticlelist.html">东方头条</a>
-		<a target="_blank" class="color-3"  href="http://mp.sogou.com/1/articles">搜狗号</a>
-		<a target="_blank" class="color-3"  href="http://fhh.ifeng.com/index">大风号</a>
-		<a target="_blank" class="color-3"  href="http://mp.163.com/login.html">网  易</a>
-		<a target="_blank" class="color-3"  href="http://mp.sina.com.cn/?vt=4">新浪看点</a>
-	</div>
+        <a target="_blank" class="color-2" href="https://ic.qq.com/pim/contact.jsp">QQ通讯录</a>
+        <a target="_blank" class="color-2" href="https://www.easyicon.net/">icon图</a>
+    
+        <a target="_blank" class="color-2" href="http://www.pansoso.com/">百度云搜索</a>
+        <a target="_blank" class="color-2" href="https://www.zhipin.com/">BOSS直聘</a>
+        <a target="_blank" class="color-2" href="https://www.diediaow.com">碟调网</a>  
+        <a target="_blank" class="color-2" href="http://xiaohua.zol.com.cn/youmo/">幽默笑话</a>
+        <a target="_blank" class="color-2" href="https://www.qiushibaike.com/">糗事百科</a>
+
+    </div>
+
+    <div class="hr"></div>  
+
+    <div class="content">
+        <!-- 资讯-->
+
+        <a target="_blank" style="background:red;" href="http://m.baidu.com/s?word=天气预报">天气预报</a>
+        <a target="_blank" style="background:red;" href="http://m.baidu.com/s?word=空气质量">空气质量</a>
+        <a target="_blank" class="color-2" href="https://weibo.com/445896926/home?wvr=5">新浪微博</a>
+        <a target="_blank" class="color-2" href="https://s.weibo.com/top/summary?cate=realtimehot">微博热搜</a>
+
+        <a target="_blank" class="color-2" href="http://top.baidu.com/?fr=zx_right">百度风云榜</a>
+        <a target="_blank" class="color-2" href="http://www.codoon.com/gps_sports/my_routes">咕咚后台</a>
+        <a target="_blank" class="color-2" href="http://www.runchina.org.cn/portal.php?mod=calendar&ac=list">中国马拉松</a>
+        <a target="_blank" class="color-2" href="http://www.runchina.org.cn/portal.php?mod=mobile_calendar">赛事日历</a>
+        
+        <a target="_blank" class="color-2" href="http://www.xian42195.com/">西安马拉松</a>
+        <a target="_blank" class="color-2" href="http://www.yangling-marathon.com/">杨凌马拉松</a>
+        
+    </div>
+    <div class="hr"></div>
+
+    <div class="content">
+        <!-- 自媒体  -->
+        <a target="_blank" style="background:red;"  href="http://www.yizhuan5.com/work.html#1-1">易撰</a>
+        <a target="_blank" style="background:red;" href="https://www.vcg.com/">视觉中国</a>
+        <a target="_blank" class="color-3" href="https://mp.weixin.qq.com/">微信公众号</a>
+        <a target="_blank" class="color-3"  href="https://baijiahao.baidu.com/builder/rc/analysiscontent/single">百家号</a>
+        <a target="_blank" class="color-3"  href="https://mp.dayu.com/dashboard/stat/article">大鱼号</a>
+        <a target="_blank" class="color-3"  href="https://om.qq.com/article/articleStatistic">企鹅号</a>
+        <a target="_blank" class="color-3"  href="https://mp.qutoutiao.net/content-manage/article">趣头条</a>  
+        <a target="_blank" class="color-3"  href="https://mp.yidianzixun.com/#/ArticleManual">一点资讯</a>
+        <a target="_blank" class="color-3"  href="https://mp.sohu.com/mpfe/v3/main/news/articlelist">搜狐号</a>
+        <a target="_blank" class="color-3"  href="http://mp.cashtoutiao.com/">惠头条</a>
+        <a target="_blank" class="color-3"  href="http://kuaichuan.360.cn/#!/manage">快传号</a>
+        <a target="_blank" class="color-3"  href="https://mp.toutiao.com/profile_v3/index">今日头条</a>
+        <a target="_blank" class="color-3"  href="http://mp.eastday.com/pagearticlelist.html">东方头条</a>
+        <a target="_blank" class="color-3"  href="http://mp.sogou.com/1/articles">搜狗号</a>
+        <a target="_blank" class="color-3"  href="http://fhh.ifeng.com/index">大风号</a>
+        <a target="_blank" class="color-3"  href="http://mp.163.com/login.html">网  易</a>
+        <a target="_blank" class="color-3"  href="http://mp.sina.com.cn/?vt=4">新浪看点</a>
+    </div>
 
 </body>
 </html>
